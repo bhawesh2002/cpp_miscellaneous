@@ -12,6 +12,8 @@ Determine if it is possible to defeat the monster by eating at most one pill of 
 
 using namespace std;
 
-int main(){
-    int M = 0,Y = 0,R =0,G =0; //create 4 variables a/c to the problem statement and initialise them to zero
+int main()
+{
+    int M = 0, Y = 0, R = 0, G = 0; // create 4 variables a/c to the problem statement and initialise them to zero
+    cin >> M >> Y >> R >> G;        //get the  input
 }
