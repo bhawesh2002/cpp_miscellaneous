@@ -18,7 +18,7 @@ int main()
     cin >> n;
     if (n % 2 == 0)
     {
-        int  half = n /2;
+        int half = n / 2;
         int *high = new int(half);
         int *low = new int(half);
         for (int i = 0; i < n; i++)
@@ -27,28 +27,28 @@ int main()
         }
         for (int j = 0; j < n; j++)
         {
-            for (int k = 0; k < n-1; k++)
+            for (int k = 0; k < n - 1; k++)
             {
-                if(num[j] >num[k]){
-                    swap(num[j],num[k]);
+                if (num[j] > num[k])
+                {
+                    swap(num[j], num[k]);
                 }
             }
-            
         }
-        cout << "HIGH" << endl;
+        int sum_low = 0, sum_high = 0;
         for (int l = 0; l < half; l++)
         {
             high[l] = num[l];
-            cout << high[l] << endl;
+            sum_high += high[l];
         }
-        cout << "low" << endl;
-        for (int l = half ; l < n; l++)
+        for (int l = half; l < n; l++)
         {
             low[l] = num[l];
-            cout << low[l] << endl;
+            sum_low += low[l];
         }
-        
+        int difference = sum_high - sum_low;
+        cout << difference << endl;
     }
-    
+
     return 0;
 }
