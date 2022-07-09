@@ -18,13 +18,10 @@ int main()
     cin >> M >> Y >> R >> G;        // get the  input
     int health = (Y + R) * G;       // compute the health of the player
     bool win = 0;                   // create a variable to store win status
-    if ((M, Y, R, G >= 0) && (M, Y, R, G >= 1000))
+    if (health > M)                 //Check if Monssters health is less than player's
     {
-        if (health > M) // Check if Monssters health is less than player's
-        {
-            win = 1; // Set win to true
-        }
+        win = 1;                    //Set win to true
     }
-    cout << win << endl; // print the win status
+    cout << win << endl;            //print the win status
     return 0;
 }
