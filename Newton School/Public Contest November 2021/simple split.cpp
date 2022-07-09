@@ -23,6 +23,17 @@ int main()
         {
             cin >> num[i];
         }
+        for (int j = 0; j < n; j++)
+        {
+            for (int k = 0; k < n-1; k++)
+            {
+                if(num[j] >num[k]){
+                    swap(num[j],num[k]);
+                }
+            }
+            
+        }
     }
+    
     return 0;
 }
