@@ -35,6 +35,19 @@ int main()
             }
             
         }
+        cout << "HIGH" << endl;
+        for (int l = 0; l < half; l++)
+        {
+            high[l] = num[l];
+            cout << high[l] << endl;
+        }
+        cout << "low" << endl;
+        for (int l = half ; l < n; l++)
+        {
+            low[l] = num[l];
+            cout << low[l] << endl;
+        }
+        
     }
     
     return 0;
