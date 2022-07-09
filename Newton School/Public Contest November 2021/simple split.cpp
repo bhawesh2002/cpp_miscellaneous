@@ -11,6 +11,17 @@ Print the maximum possible difference.*/
 
 using namespace std;
 
-int main(){
+int main()
+{
+    int n = 0;
+    int *num = new int(n);
+    cin >> n;
+    if (n % 2 == 0)
+    {
+        for (int i = 0; i < n; i++)
+        {
+            cin >> num[i];
+        }
+    }
     return 0;
 }
