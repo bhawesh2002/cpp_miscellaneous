@@ -6,3 +6,11 @@ Note that each element of the original array must be in exactly one of the parts
 
 Print the maximum possible difference.*/
 // Link:- https://my.newtonschool.co/playground/code/1pctmsttzq3g/
+
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    return 0;
+}
