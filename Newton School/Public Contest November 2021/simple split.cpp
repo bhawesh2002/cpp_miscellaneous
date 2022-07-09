@@ -19,6 +19,8 @@ int main()
     if (n % 2 == 0)
     {
         int  half = n /2;
+        int *high = new int(half);
+        int *low = new int(half);
         for (int i = 0; i < n; i++)
         {
             cin >> num[i];
