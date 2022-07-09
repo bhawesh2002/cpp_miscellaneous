@@ -18,6 +18,7 @@ int main()
     cin >> n;
     if (n % 2 == 0)
     {
+        int  half = n /2;
         for (int i = 0; i < n; i++)
         {
             cin >> num[i];
