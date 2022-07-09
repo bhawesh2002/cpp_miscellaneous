@@ -17,4 +17,6 @@ int main()
     int M = 0, Y = 0, R = 0, G = 0; // create 4 variables a/c to the problem statement and initialise them to zero
     cin >> M >> Y >> R >> G;        //get the  input
     int health = (Y + R) * G;        //compute the health of the player
+    bool win = 1;                   //create a variable to store win status
+    
 }
