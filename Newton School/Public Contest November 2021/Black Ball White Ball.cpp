@@ -9,6 +9,8 @@ You are required to find the probability of Alice winning the game.*/
 
 using namespace std;
 
-int main(){
+int main()
+{
+    char balck = 'B',white = 'W';
     return 0;
 }
