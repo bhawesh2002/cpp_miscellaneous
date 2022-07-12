@@ -29,3 +29,11 @@ The next K lines each contain the description of a laser's initial state (at tim
 The ith laser is stationed on the cell (xi, yi) and its initial orientation is Oi. Oi is either 'R' or 'C' denoting whether the laser defends its row or column respectively.
 Output
 Print a single integer, the minimum possible time for Alice to make her player reach (N, M). If it is impossible to reach (N, M) print -1.*/
+
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    return 0;
+}
