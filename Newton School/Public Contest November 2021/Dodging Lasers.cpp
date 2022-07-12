@@ -37,7 +37,17 @@ using namespace std;
 int main()
 {
     int n = 0, m = 0;
+    int c = 0;
     cin >> n >> m;
-    int *grid = new int[n * m];
+    int **grid;
+    grid = new int * [n];
+    for (int i = 0; i < n; i++)
+    {
+        grid [i] = new int[m];
+    }
+    for(int i = 0; i < n; i++){
+        delete grid[i];
+    }
+    delete[] grid;
     return 0;
 }
