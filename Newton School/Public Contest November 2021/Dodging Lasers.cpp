@@ -34,10 +34,10 @@ Print a single integer, the minimum possible time for Alice to make her player r
 
 using namespace std;
 
-int main(){
+int main()
+{
     int n = 0, m = 0;
     cin >> n >> m;
-    int * grid = new int(n * m);
-    
+    int *grid = new int[n * m];
     return 0;
 }
