@@ -36,7 +36,8 @@ using namespace std;
 
 int main(){
     int n = 0, m = 0;
-    int * row = new int(n);
-    int * column = new int(m);
+    cin >> n >> m;
+    int * grid = new int(n * m);
+    
     return 0;
 }
