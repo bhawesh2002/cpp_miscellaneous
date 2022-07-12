@@ -38,6 +38,7 @@ int main()
 {
     int n = 0, m = 0;
     int c = 1;
+    int player_loc[1][1] = {(1,1)};
     cin >> n >> m;
     int **grid;
     grid = new int * [n];
