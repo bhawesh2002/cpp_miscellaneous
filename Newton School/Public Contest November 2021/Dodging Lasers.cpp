@@ -35,5 +35,8 @@ Print a single integer, the minimum possible time for Alice to make her player r
 using namespace std;
 
 int main(){
+    int n = 0, m = 0;
+    int * row = new int(n);
+    int * column = new int(m);
     return 0;
 }
