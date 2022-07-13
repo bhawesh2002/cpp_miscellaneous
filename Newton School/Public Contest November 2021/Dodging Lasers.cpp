@@ -46,6 +46,16 @@ int main()
     {
         grid [i] = new int[m];
     }
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < m; j++)
+        {
+            grid[i][j] = c++;
+            cout << grid[i][j] << " "; 
+        }
+        cout << endl;
+    }
+    
     for(int i = 0; i < n; i++){
         delete grid[i];
     }
