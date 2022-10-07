@@ -10,10 +10,12 @@ int main()
          << "\t\t\t"
          << "ASCII"
          << endl;
+    cout << "UPPER CASE Alphabets:" << endl;
     for (char i = 'A'; i <= 'Z'; i++)
     {
         cout << i << "   \t\t\t" << int(i) << endl;
     }
+    cout << "lower case Alphabets:" << endl;
     for (char i = 'a'; i <= 'z'; i++)
     {
         cout << i << "   \t\t\t" << int(i) << endl;
